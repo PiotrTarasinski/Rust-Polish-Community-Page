@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.middle{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fill{
+    height: 100%;
+}
+
+
+.row-padding{
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 0 10px;
+}
+
+/* Navigation */
+#mainNav {
+    -webkit-transition: background 1s ease-in-out, padding-top 1s ease-in-out, padding-bottom 1s;
+    -moz-transition: background 1s ease-in-out, padding-top 1s ease-in-out, padding-bottom 1s;
+    transition: background 1s ease-in-out, padding-top 1s ease-in-out, padding-bottom 1s;
+  }
+
+#mainNav .nav-item{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#mainNav .nav-item:hover{
+    border-radius: 10px;
+    -webkit-transition: background-color 0.3s ease-in-out, box-shadow 0.3s;
+    -moz-transition: background-color 0.3s ease-in-out, box-shadow 0.3s;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s;
+    -webkit-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-shrink {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    -webkit-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+/* End of Navigation */
+
+/* Footer */
+
+footer{
+    padding-top: 15px;
+    padding-bottom: 1px;
+    box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* End of Footer */
+
+
+@media (max-width: 992px) {
+    
+    #mainNav {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background: white;
+        -webkit-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    }
+    
+    #mainNav .nav-item{
+        margin-right: 0px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    
+}
